@@ -1,0 +1,16 @@
+Source: python-django-robots
+Section: python
+Priority: optional
+Maintainer: Stefan Jenkner <stefan@jenkner.org>
+Standards-Version: 3.8.1
+Build-Depends: debhelper (>= 7), python-dev
+Build-Depends-Indep: python-support, python-docutils, python-setuptools
+Homepage: http://bitbucket.org/jezdez/django-robots/overview/
+
+Package: python-django-robots
+Architecture: all
+Depends: ${python:Depends}, ${misc:Depends}, python-django (>= 1.0)
+Description: A Django app for managing robots.txt files
+ This is a basic Django application to manage robots.txt files
+ following the robots exclusion protocol, complementing the Django
+ Sitemap contrib app.
