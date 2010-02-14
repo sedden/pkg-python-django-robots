@@ -1,9 +1,14 @@
 #!/usr/bin/make -f
 
+include /usr/share/quilt/quilt.make
+
 PKG = $(shell dh_listpackages)
 
 %:
 	dh $@
+
+build: $(QUILT_STAMPFN)
+clean: unpatch
 
 override_dh_installdocs:
 	dh_installdocs
