@@ -1,5 +1,5 @@
-python-django-robots (0.6.1-0karmic1) karmic; urgency=low
+python-django-robots (0.6.1-0lenny1) lenny; urgency=low
 
   * Initial release.
 
- -- Stefan Jenkner <stefan@jenkner.org>  Sun, 25 Oct 2009 17:30:13 +0100
+ -- Stefan Jenkner <stefan@jenkner.org>  Sat, 27 Feb 2010 18:56:07 +0100
