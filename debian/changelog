@@ -1,3 +1,9 @@
+python-django-robots (0.6.1-0lucid1) lucid; urgency=low
+
+  * Upload for Ubuntu Lucid.
+
+ -- Stefan Jenkner <stefan@jenkner.org>  Wed, 28 Apr 2010 22:39:36 +0200
+
 python-django-robots (0.6.1-0karmic1) karmic; urgency=low
 
   * Initial release.
